@@ -1,2 +1,3 @@
-# cai-portfolio
-Cassius.Gfx Portfolio
+# Design Portfolio
+
+Hello there. This is my personal graphic design portfolio website. Created to showcase my work and attract potential clients who are looking for freelance graphic design services. Designed and designed for small business owners, entrepreneurs, and individuals who need help with branding, logos, marketing materials, social media graphics, and other creative design services. The goal of this portfolio is to give potential clients an easy way to view my work, learn more about the services, and what all I have to offer, and so that they can easily contact me about working together. I hope you enjoy.
