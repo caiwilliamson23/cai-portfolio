@@ -56,5 +56,22 @@
   <footer>
     <p>&copy; 2026 Cassius Design Studio</p>
   </footer>
+  <script>
+    function getLocation() {
+      navigator.geolocation.getCurrentPosition(showPosition, showError);
+    }
+
+    function showPosition(position) {
+      var lat = position.coords.latitude.toFixed(1);
+      var lon = position.coords.longitude.toFixed(1);
+      document.getElementById("location-message").textContent =
+        "You're near " + lat + ", " + lon + ". I work with clients anywhere, so distance is no problem, and if you're local we can meet up to talk through your project.";
+    }
+
+    function showError(error) {
+      document.getElementById("location-message").textContent =
+        "We couldn't get your location, but that's alright. You can still send your inquiry below and I'll get back to you.";
+    }
+  </script>
 </body>
 </html>
