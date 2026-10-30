@@ -50,6 +50,11 @@ main {
   padding: 40px 20px;
 }
 
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
 h2 {
   margin-bottom: 8px;
 }
