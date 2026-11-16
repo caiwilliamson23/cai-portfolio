@@ -79,7 +79,8 @@ footer {
 }
 
 .cta,
-button[type="submit"] {
+button[type="submit"],
+button[type="button"] {
   background-color: #b5461f;
   color: #ffffff;
   font-size: 1.25rem;
@@ -175,7 +176,8 @@ input, textarea {
   max-width: 480px;
 }
 
-button[type="submit"] {
+button[type="submit"],
+button[type="button"] {
   display: block;
   margin-top: 2rem;
   border: none;
