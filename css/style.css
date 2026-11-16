@@ -176,6 +176,12 @@ input, textarea {
   max-width: 480px;
 }
 
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+}
+
 button[type="submit"],
 button[type="button"] {
   display: block;
