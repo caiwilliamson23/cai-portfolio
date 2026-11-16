@@ -126,7 +126,7 @@ button[type="submit"] {
 }
 
 a:focus {
-  outline: 3px solid #d9822b;
+  outline: 3px solid #b5461f;
   outline-offset: 2px;
 }
 
